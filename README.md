@@ -1,6 +1,6 @@
 # Group-2
 
-This project aims to develop a state-of-the-art machine learning model for detecting hate speech in Twitter posts using BERT (Bidirectional Encoder Representations from Transformers). BERT is a powerful transformer-based model that captures the context of words in a sentence by considering both their left and right context, making it highly effective for natural language processing tasks.
+Detecting hate speech on Twitter involves using machine learning to identify tweets that promote hatred or violence based on protected characteristics. Twitter faces the challenge of balancing free expression with preventing harm, and automated detection helps flag harmful content for human review. This process involves analyzing text for patterns and sentiment indicative of hate speech, with models trained on labeled data.
 
 
 # Dataset Source
@@ -16,7 +16,7 @@ This project utilizes a dataset from the following source:
 - Decoded HTML entities and converted emojis to text equivalents
 - Expanded abbreviations
 - Removed special characters, punctuation, URLs
-- 
+
 # Tokenization and Embedding 
 - Tokenization implemented using NLTK's word_tokenize
 - TF-IDF (Term Frequency-Inverse Document Frequency
