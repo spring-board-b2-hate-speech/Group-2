@@ -7,6 +7,6 @@ This project aims to develop a state-of-the-art machine learning model for detec
 
 This project utilizes a dataset from the following source:
 
--*Dataset Name:* Hate_Speech
+- Hate_Speech
 - *Source:* Kaggle
 - *Link to Dataset:* [https://www.kaggle.com/datasets/icon1c/hate-speech]
