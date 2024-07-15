@@ -19,4 +19,4 @@ This project utilizes a dataset from the following source:
 
 # Tokenization and Embedding 
 - Tokenization implemented using NLTK's word_tokenize
-- TF-IDF (Term Frequency-Inverse Document Frequency
+- TF-IDF (Term Frequency-Inverse Document Frequency)
