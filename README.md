@@ -3,38 +3,40 @@
 In today's digital age, hate speech on online platforms is a growing concern that impacts individuals and communities globally. Social media platform like Twitter host billions of users who generate a vast amount of content daily. The business problem we are addressing is the need for an efficient, scalable, and accurate system to automatically detect and mitigate hate speech in user-generated content on Twitter platform
 Solution Description
 To address the problem of hate speech on Twitter platform, we propose developing a machine learning model that can automatically detect and categorize user-generated content into hate speech/offensive language and neutral content. The solution involves the following steps:
-# Data Collection: Gather a diverse and comprehensive dataset of user-generated content from Twitter platforms.
 
-# Data Labeling: Ensure accurate labeling of content into the categories of hate speech/offensive language, or neutral.
 
-# Model Training: Use the labeled dataset to train a robust machine learning model.
+Data Collection: Gather a diverse and comprehensive dataset of user-generated content from Twitter platforms.
 
-# Evaluation: Test and validate the model to ensure high accuracy and reliability in detecting hate speech.
+ Data Labeling: Ensure accurate labeling of content into the categories of hate speech/offensive language, or neutral.
 
-# Deployment: Integrate the model into online platforms to assist in real-time content moderation.
+ Model Training: Use the labeled dataset to train a robust machine learning model.
+
+ Evaluation: Test and validate the model to ensure high accuracy and reliability in detecting hate speech.
+
+ Deployment: Integrate the model into online platforms to assist in real-time content moderation.
 
 Dataset
 Selected Davidson dataset has over 24,000 entries, covering a wide range of hate speech scenarios and user-generated content from Tweeter platform. Each tweet is labeled as hate speech, offensive language, or neutral content.
 Dataset Size:
 
-# Hate speech -20609
+ Hate speech -20609
 
-# Non Hate speech- 4159
+Non Hate speech- 4159
 
 Origianl Dataset link :
 https://drive.google.com/drive/folders/1sCNO7onQ-kzQJUYitV-PtZzQtGrnD7jh?usp=sharing
 Data Preprocessing
 Data preprocessing is a process of preparing the raw data and making it suitable for a machine learning model. It is the first and crucial step while creating a machine learning model.
 
-# Recategorization: Labeled Hate speech and offensive language as 0, non-hate speech as 1
+Recategorization: Labeled Hate speech and offensive language as 0, non-hate speech as 1
 
-# Handling abbreviations: Replaced with full forms
+Handling abbreviations: Replaced with full forms
 
-# HTML entity decoding: Decoded HTML entities
+HTML entity decoding: Decoded HTML entities
 
-# Contraction expansion: Expanded contractions
+Contraction expansion: Expanded contractions
 
-# Normalization: Applied normalization to the data
+Normalization: Applied normalization to the data
 
 Preprocessed Dataset link :
 https://drive.google.com/drive/folders/1sCNO7onQ-kzQJUYitV-PtZzQtGrnD7jh?usp=sharing
